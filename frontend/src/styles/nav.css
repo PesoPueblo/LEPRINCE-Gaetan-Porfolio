@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background:#dcb233;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    height: 100px;
+}
+.header> img {
+    border-radius: 50%;
+    max-width: 80px;
+    margin: 3%;
+    border: rgb(24,49,83) solid 6px;
+}
+nav>li{
+    display: flex;
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    margin: 0 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}

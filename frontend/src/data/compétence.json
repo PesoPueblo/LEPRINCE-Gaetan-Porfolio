@@ -1,0 +1,45 @@
+[
+    {   "id":1546,
+        "titre":"Front-end",
+        "technologie":[
+        {
+         "id":1,
+         "langage":"HTML",
+         "grade": 4
+        },
+        {
+            "id":2,
+         "langage":"CSS",
+         "grade": 4
+        },
+        {
+            "id":3,
+         "langage":"JavaScript",
+         "grade": 4
+        },
+        {
+            "id":4,
+         "langage":"REACT",
+         "grade": 4
+        }
+    ]},
+    {"id":2564,
+    "titre":"Back-end",
+    "technologie":[
+        {
+            "id":5,
+         "langage":"NodeJS",
+         "grade": 4
+        },
+        {
+            "id":6,
+         "langage":"MongoDB",
+         "grade": 4
+        },
+        {
+            "id":7,
+         "langage":"JavaScript",
+         "grade": 4
+        }
+    ]}
+]

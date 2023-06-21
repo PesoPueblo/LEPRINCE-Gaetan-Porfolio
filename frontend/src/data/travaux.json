@@ -1,0 +1,37 @@
+[
+    {
+        "_id":1,
+        "titre":"Site de location Immobilière",
+        "année": 2023,
+        "context": "partie front end à faire en suivant une maquette spé",
+        "technologie utilisé":[
+            "REACT",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "REACT-Router"
+        ],
+        "lien vers le site":"https://github.com/PesoPueblo/Projet-6-KASA",
+        "image":[
+            "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://via.placeholder.com/206x260",
+            "https://via.placeholder.com/206x260"
+        ]
+    },
+     {
+        "_id":2,
+        "titre":"Site portfolio",
+        "année": 2023,
+        "context": "partie front end à faire en suivant une maquette spé",
+        "technologie utilisé":[
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "lien vers le site":"https://github.com/PesoPueblo/Projet-3-Site-Dynamique-Architecte",
+        "image":[
+            "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "https://via.placeholder.com/206x260",
+            "https://via.placeholder.com/206x260"]
+    }
+]
