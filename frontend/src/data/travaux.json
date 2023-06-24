@@ -1,10 +1,10 @@
 [
     {
         "_id":1,
-        "titre":"Site de location Immobilière",
+        "titre":"Kasa - Site de location Immobilière",
         "année": 2023,
-        "context": "partie front end à faire en suivant une maquette spé",
-        "technologie utilisé":[
+        "context": "Projet réalisé lors de la formation, avec une mise en situation professionnel pour faire la partie Front du projet. Conception de l'application avec React, lancement du projet avec Create React App et gestion des route avec React Router!",
+        "technologie":[
             "REACT",
             "JavaScript",
             "HTML",
@@ -13,25 +13,48 @@
         ],
         "lien vers le site":"https://github.com/PesoPueblo/Projet-6-KASA",
         "image":[
-            "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "https://via.placeholder.com/206x260",
-            "https://via.placeholder.com/206x260"
+            "https://localhost:4000/image/kasaacceuil.png",
+            "https://localhost:4000/image/kasaapropos.png",
+            "https://localhost:4000/image/kasalogement.png",
+            "https://localhost:4000/image/kasaerr.png"
         ]
     },
      {
         "_id":2,
-        "titre":"Site portfolio",
+        "titre":"Site portfolio - Sophie Bluel Architecte",
         "année": 2023,
-        "context": "partie front end à faire en suivant une maquette spé",
-        "technologie utilisé":[
+        "context": "Projet réalisé lors de la formation, avec une mise en situation professionnel pour faire la partie Front du projet.Mise en place de bouton tri, d'une page de connexion pour accéder à un mode adminstration, et création d'une modal pour la suppression et l'ajout de nouveau projet.Tous le projet a été codé en Javascript!",
+        "technologie":[
             "JavaScript",
             "HTML",
             "CSS"
         ],
         "lien vers le site":"https://github.com/PesoPueblo/Projet-3-Site-Dynamique-Architecte",
         "image":[
-            "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "https://via.placeholder.com/206x260",
-            "https://via.placeholder.com/206x260"]
+            "https://localhost:4000/image/SBarchitecte.png",
+            "https://localhost:4000/image/SBarchitecteacceuil.png",
+            "https://localhost:4000/image/SBarchitecteconnexion.png",
+            "https://localhost:4000/image/SBarchitectemodalajout.png",
+            "https://localhost:4000/image/SBarchitectemodalsupp.png"
+        ]
+    },
+    {
+        "_id":3,
+        "titre":"Site notation de livre - Mon Vieux Grimoire",
+        "année": 2023,
+        "context": "Projet réalisé lors de la formation, avec une mise en situation professionnel pour faire la partie Back-end du projet.Mise en place d'une API comprenant la gestion d'authentification et les différentes opération CRUD. Gestion du traitement des images avec le middleware Multer.Mais aussi la gestion Connexion à la base de donnée MongoDB!",
+        "technologie":[
+            "JavaScript",
+            "NodeJS",
+            "MongoDB"
+        ],
+        "lien vers le site":"https://github.com/PesoPueblo/PROJET7-MonVieuxGrimoire",
+        "image":[
+            "https://localhost:4000/image/monvieuxgrimoireacceuil.png",
+            "https://localhost:4000/image/monvieuxgrimoirepagelivre.png",
+            "https://localhost:4000/image/monvieuxgrimoireconnexion.png",
+            "https://localhost:4000/image/monvieuxgrimoireajout.png"
+        ]
     }
+
 ]
