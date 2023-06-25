@@ -7,7 +7,7 @@ exports.getAllWorks= (req,res,next)=>{
 };
 
 exports.getOneWork=(req,res,next)=>{
-    Work.findOne({id: req.params._id})
+    Work.findOne({id: req.params.id})
     .then((work)=>res.status(200).json(work))
     .catch(err=>res.status(400).json({err}));
 };

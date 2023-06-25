@@ -11,7 +11,8 @@ export default function Apropos(){
                 Grâce à la plateforme OpenClassrooms je me suis lancé dans une formation à fin d'avoir un titre de niveau Bac+2 et je ne m'arrêterai pas là ... <br />
             </p>
             <div className="LinkRS">
-
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-square-github"></i>
             </div>
             </div>
         </div>

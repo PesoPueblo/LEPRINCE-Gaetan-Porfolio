@@ -1,14 +1,15 @@
 import "../styles/nav.css"
 import img from "../asset/moi.jpg"
+import { Link } from "react-router-dom"
 export default function Nav () {
     return (
         <div className="header">
             <img src={img} alt="Gaëtan LEPRINCE" />
             <nav>
-                <li><a href="/" className="nav-link">A Propos</a></li>
-                <li><a href="#compétences" className="nav-link">Compétences</a></li>
-                <li><a href="#projets"className="nav-link">Mes Projets</a></li>
-                <li><a href="#contact"className="nav-link">Me contacter</a></li>
+                <li><Link to="/" className="nav-link">A Propos</Link></li>
+                <li><Link to="/compétences" className="nav-link">Compétences</Link></li>
+                <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
+                <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
             </nav>
 
         </div>

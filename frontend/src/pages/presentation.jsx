@@ -1,5 +1,6 @@
 
 import "../styles/presentation.css"
+import Apropos from "./apropos";
 
 export default function Presentation({titre, text , img}){
     //comportement
@@ -11,6 +12,7 @@ export default function Presentation({titre, text , img}){
     }
  }
     return(
+        <div>
         <div className="section">
             <div className="content">
                 <h1 className="title">{titre}</h1>
@@ -18,6 +20,7 @@ export default function Presentation({titre, text , img}){
             </div>
             {image()}
         </div>
-
+        <Apropos/>
+        </div>
     );
 }

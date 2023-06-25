@@ -4,13 +4,15 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import Nav from './components/nav';
-
+import {BrowserRouter as Router} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav/>
-    <App />
+    <Router>
+      <Nav/>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
