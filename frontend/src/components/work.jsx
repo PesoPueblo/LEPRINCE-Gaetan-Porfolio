@@ -6,7 +6,7 @@ export default function Gallery() {
  //state
  const [data,setData] = useState([]);
  useEffect(()=>{
-     fetch("http://localhost:4000/api/works")
+     fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
      .then(prom=>prom.json())
      .then(data=>{setData(data)})
      .catch(err=>console.log(err));
