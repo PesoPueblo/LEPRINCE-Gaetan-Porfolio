@@ -41,7 +41,7 @@
     color: #dcb233;
 }
 
-@media (max-width:950px) {
+@media (max-width:951px) {
     .section{
         min-height: unset;
     }

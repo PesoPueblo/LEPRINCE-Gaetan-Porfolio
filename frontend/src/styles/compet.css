@@ -1,5 +1,6 @@
 .compet-gallery{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-top: 10%;
     flex-wrap: wrap;
@@ -49,4 +50,16 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+@media (max-width:951px){
+    .compTitle{
+        font-size: 2rem;
+    }
+    .note{
+        font-size: 50%;
+    }
+    .tech>h4{
+        font-size: 70%;
+    }
+
 }
