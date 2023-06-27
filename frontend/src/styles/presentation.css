@@ -65,4 +65,7 @@
         position: unset;
         align-self: center;
     }
+    .content{
+        align-items: center;
+    }
 }
