@@ -3,14 +3,23 @@
 }
 #contact{
   max-height: 200px;
-  background-color: #dcb233;
+  background-color: white;
 }
 #contact>ul{
   text-decoration: none;
-  color: white;
-  font-size: 3rem;
+  color:  rgb(24,49,83) ;
+  font-size: 2.5rem;
 }
 #contact li{
-  display: block;
+  display: flex;
+  align-items: center;
   
+}
+.rs{
+  display: flex;
+  color: rgb(24,49,83);
+  margin-right: 5%;
+}
+.rs:hover{
+  color: #dcb233;
 }

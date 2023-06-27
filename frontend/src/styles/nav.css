@@ -5,9 +5,6 @@
     margin: 0;
     background:#dcb233;
     width: 100%;
-    position: fixed;
-    top: 0px;
-    z-index: 1000;
     height: 100px;
 }
 .header> img {

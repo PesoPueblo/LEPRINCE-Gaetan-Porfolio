@@ -4,7 +4,6 @@
     justify-content: center;
     border-bottom: 5px solid #dcb233;
     padding: 3%;
-    padding-top: 100px;
     padding-bottom: 100px;
     min-height: 500px;
 }
@@ -28,4 +27,16 @@
 .Text{
     color: rgb(24,49,83);
     font-size: 1.5rem;
+}
+.LinkRS{
+    display: flex;
+    max-width: 40%;
+}
+.linkres{
+    color: rgb(24,49,83);
+    font-size: 2.5rem;
+    margin: 3%;
+}
+.linkres:hover {
+    color: #dcb233;
 }

@@ -1,6 +1,6 @@
 import '../styles/App.css';
 import Presentation from './presentation';
-import Modal from '../components/modal'
+import Details from './details'
 import Competences from './competences';
 import Works from './projets';
 import Contact from './contact';
@@ -19,7 +19,7 @@ function App() {
         }></Route>
         <Route path='/compétences'element={<Competences/>}></Route>
         <Route path='/projets' element={<Works/>}></Route>
-        <Route path='/projets/:titre' element={<Modal/>}></Route> 
+        <Route path='/projets/:titre' element={<Details/>}></Route> 
         <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
     </div>

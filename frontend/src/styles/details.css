@@ -1,0 +1,43 @@
+.details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.preview{
+    border-radius: 15px;
+    border: 2px rgb(24,49,83) solid;
+    box-shadow: 5px 5px 5px rgb(24,49,83);
+    width: 30%;
+    margin: 1%;
+}
+.title{
+    font-size: 3rem;
+    margin: 0;
+}
+.infos>p::first-line{
+    font-size: 1.5rem;
+    color: rgb(24,49,83);
+}
+.allImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.allImages img{
+    max-width: 45%;
+    height:auto;
+    border: 2px rgb(24,49,83) solid;
+    box-shadow: 5px 5px 5px rgb(24,49,83);
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 2%;
+}
+.infos>p{
+    width: 70%;
+}
+.infos>li::marker{
+    color: rgb(24,49,83);
+}
