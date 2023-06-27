@@ -15,7 +15,7 @@
   align-items: center;
   
 }
-.rs,.contact-link{
+.rs{
   display: flex;
   color: rgb(24,49,83);
   margin-right: 5%;
@@ -25,4 +25,6 @@
 }
 .contact-link{
   font-weight: bold;
+  text-decoration: none;
+  color: rgb(24,49,83);
 }

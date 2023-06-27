@@ -7,7 +7,7 @@ export default function Nav () {
             <img src={img} alt="Gaëtan LEPRINCE" />
             <nav>
                 <li><Link to="/" className="nav-link">A Propos</Link></li>
-                <li><Link to="/compétences" className="nav-link">Compétences</Link></li>
+                <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
                 <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
                 <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
             </nav>
