@@ -15,11 +15,14 @@
   align-items: center;
   
 }
-.rs{
+.rs,.contact-link{
   display: flex;
   color: rgb(24,49,83);
   margin-right: 5%;
 }
-.rs:hover{
+.rs:hover,.contact-link{
   color: #dcb233;
+}
+.contact-link{
+  font-weight: bold;
 }

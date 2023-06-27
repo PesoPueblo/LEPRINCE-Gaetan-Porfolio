@@ -50,16 +50,20 @@
         align-self: center;
     }
     .title{
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         margin-top: 2%;
     }
     .Text{
         font-size: 1rem;
     }
+    
+    .content{
+        align-items: center;
+    }
 }
 @media (max-width:551px) {
     .title{
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
     .photo{
         position: unset;
