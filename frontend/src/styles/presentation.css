@@ -20,9 +20,9 @@
 .photo{
     border: 5px solid rgb(24,49,83);
     border-radius: 50%;
-    max-width: 20%;
+    max-width: 25%;
     position: absolute;
-    right: 50px;
+    right: 5%;
 }
 .Text{
     color: rgb(24,49,83);
@@ -39,4 +39,30 @@
 }
 .linkres:hover {
     color: #dcb233;
+}
+
+@media (max-width:950px) {
+    .section{
+        min-height: unset;
+    }
+    .photo{
+        position: unset;
+        align-self: center;
+    }
+    .title{
+        font-size: 4.5rem;
+        margin-top: 2%;
+    }
+    .Text{
+        font-size: 1rem;
+    }
+}
+@media (max-width:551px) {
+    .title{
+        font-size: 3.5rem;
+    }
+    .photo{
+        position: unset;
+        align-self: center;
+    }
 }

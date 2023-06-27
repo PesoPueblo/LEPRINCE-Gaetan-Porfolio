@@ -4,21 +4,25 @@
         "technologie":[
         {
          "id":1,
+         "img":"../asset/html",
          "langage":"HTML",
          "grade": 4
         },
         {
             "id":2,
+            "img":"../asset/html",
          "langage":"CSS",
          "grade": 4
         },
         {
             "id":3,
+            "img":"../asset/html",
          "langage":"JavaScript",
          "grade": 4
         },
         {
             "id":4,
+            "img":"{html}",
          "langage":"REACT",
          "grade": 4
         }
@@ -28,16 +32,19 @@
     "technologie":[
         {
             "id":5,
+            "img":"../asset/html",
          "langage":"NodeJS",
          "grade": 4
         },
         {
             "id":6,
+            "img":"../asset/html",
          "langage":"MongoDB",
          "grade": 4
         },
         {
             "id":7,
+            "img":"../asset/html",
          "langage":"JavaScript",
          "grade": 4
         }

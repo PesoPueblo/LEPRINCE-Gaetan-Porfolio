@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(24,49,83);
+    
     border-bottom: #dcb233 solid 5px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -15,11 +15,12 @@ display: flex;
 .workCard{
     max-width: 45%;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(24,49,83, 0.5);
     padding: 0;
     margin: 2%;
-    border: 5px solid #dcb233;
+    border: 1px solid rgba(24,49,83);
     position: relative;
+    box-shadow: 5px 5px 5px rgb(24,49,83);
 
 }
 .workImage{
@@ -33,7 +34,7 @@ border-radius: 15px;
 }
 .workTitle{
     position: absolute;
-    color: white;
+    color:white;
     align-self: flex-start;
     top: 2%;
     left: 2%;
@@ -42,7 +43,7 @@ border-radius: 15px;
 }
 .gallery-title{
     font-size: 3.5rem;
-    color: white;
+    color: rgb(24,49,83);
 }
 .seeMore{
     position: absolute;

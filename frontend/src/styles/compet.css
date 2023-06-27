@@ -1,7 +1,8 @@
 .compet-gallery{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 10%;
+    flex-wrap: wrap;
 }
 .CompCard{
     display: flex;
@@ -9,10 +10,12 @@
     justify-content: flex-start;
     background-color: #cdb233;
     color: white;
-    width: 45%;
+    max-width: 45%;
+    margin: 2%;
     align-items: center;
     border-radius: 15px;
-    border: 5px solid rgb(24,49,83);
+    border: 1px solid rgb(24,49,83);
+    box-shadow: 5px 5px 5px rgb(24,49,83);
 }
 .compTitle{
     font-size: 3rem;
@@ -24,16 +27,26 @@
     padding-bottom: 1%;
 }
 .tech{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    align-items: end;
     border: 2px solid rgb(24,49,83);
     padding: 1%;
+    margin: 1%;
     border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
 }
 .tech>h4{
     margin-top: 0;
 }
-.grade i{
+.note{
     padding: 3px;
+}
+.tech-img{
+    width: 80%;
+}
+.grade{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

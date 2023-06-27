@@ -14,6 +14,7 @@ export default function Presentation({titre, text , img}){
     return(
         <div>
         <div className="section">
+            {image()}
             <div className="content">
                 <h1 className="title">{titre}</h1>
                 <p className="Text">{text}</p>
@@ -22,7 +23,7 @@ export default function Presentation({titre, text , img}){
                     <Link to="https://github.com/PesoPueblo" className="linkres"><i className="fa-brands fa-square-github"></i></Link>
                 </div>
             </div>
-            {image()}
+            
         </div>
         <Apropos/>
         </div>

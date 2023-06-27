@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import '../styles/details.css'
 import GalleryPhoto from "../components/gallery";
+
 export default function Details() {
     //state
     
@@ -9,7 +10,7 @@ export default function Details() {
     const [image,setImage]=useState([]);
     const [technologie,setTechnologie]=useState([]);
     useEffect(()=>{
-        fetch(`http://localhost:4000/api/works/${idProject}`)
+        fetch(`${process.env.REACT_APP_SERVER_URL}/api/works/${idProject}`)
             .then(prom=>prom.json())
             .then(data=>{setData(data);setImage(data.image);setTechnologie(data.technologie)})
             .catch(err=>console.log(err));

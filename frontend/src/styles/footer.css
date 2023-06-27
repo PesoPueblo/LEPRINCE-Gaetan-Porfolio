@@ -1,0 +1,15 @@
+.footer{
+    background-color:  rgba(24, 49, 83);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.LinkRS{
+    width: 50%;
+    justify-content: space-around;
+}
+.linkres{
+    color: white;
+}
