@@ -72,3 +72,9 @@
     }
     
 }
+@media (max-width:551px) {
+    .allimage-title{
+        font-size: 2rem;
+    }
+    
+}
