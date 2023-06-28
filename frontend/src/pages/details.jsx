@@ -38,16 +38,19 @@ export default function Details() {
       <div>
           <div className='details'>
             <h3 className="title">{data.titre}</h3>
-            <img src={image[0]} alt="preview 1" className="preview"/>
-            <div className='infos'>
+            <div className="infos-image">
+              <img src={image[0]} alt="preview 1" className="preview"/>
+              <div className='infos'>
                 <p>Année: <br /> {data.année}</p>
                 <p>Mission : <br /> {data.context}</p> 
-                <p>Liens: <br /> <Link to={data.lien}>{data.lien}</Link></p>
+                <p>Liens: <br /> <Link to={data.lien} className="lien-site">{data.lien}</Link></p>
                  {contentTechno()}
+              </div>
             </div>
+            
           </div>
           <div className="allImages">
-            <h4>Vues du projets</h4>
+            <h4 className="allimage-title">Vues du projets</h4>
             <GalleryPhoto image={image}/>
           </div>
       </div>

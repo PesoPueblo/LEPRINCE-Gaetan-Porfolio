@@ -1,8 +1,13 @@
 .details{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-
+    flex-direction: column;
+}
+.infos-image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .preview{
     border-radius: 15px;
@@ -25,6 +30,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative;
+    padding-top: 8%;
 }
 .allImages img{
     max-width: 45%;
@@ -40,4 +47,17 @@
 }
 .infos>li::marker{
     color: rgb(24,49,83);
+}
+.allimage-title{
+    color: rgb(24,49,83);
+    font-size: 3rem;
+    position: absolute;
+    top: 1%;
+    left:1%
+}
+.lien-site{
+    text-decoration: none;
+}
+.lien-site:hover{
+    color: #dcb233;
 }
