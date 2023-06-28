@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import '../styles/details.css'
 import GalleryPhoto from "../components/gallery";
+import {Link} from 'react-router-dom'
 
 export default function Details() {
     //state
@@ -34,20 +35,22 @@ export default function Details() {
       }
 
     return (
-        <div><div className='details'>
+      <div>
+          <div className='details'>
+            <h3 className="title">{data.titre}</h3>
             <img src={image[0]} alt="preview 1" className="preview"/>
             <div className='infos'>
-                <h3 className="title">{data.titre}</h3>
                 <p>Année: <br /> {data.année}</p>
                 <p>Mission : <br /> {data.context}</p> 
-                <p>Liens: <br /> {data.lien}</p>
+                <p>Liens: <br /> <Link to={data.lien}>{data.lien}</Link></p>
                  {contentTechno()}
             </div>
-        </div>
-        <div className="allImages">
+          </div>
+          <div className="allImages">
+            <h4>Vues du projets</h4>
             <GalleryPhoto image={image}/>
-        </div>
-        </div>
+          </div>
+      </div>
     )
 }
 
