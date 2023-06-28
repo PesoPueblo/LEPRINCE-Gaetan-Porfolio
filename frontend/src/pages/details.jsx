@@ -47,10 +47,9 @@ export default function Details() {
                  {contentTechno()}
               </div>
             </div>
-            
           </div>
-          <div className="allImages">
             <h4 className="allimage-title">Vues du projets</h4>
+          <div className="allImages">
             <GalleryPhoto image={image}/>
           </div>
       </div>

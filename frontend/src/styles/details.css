@@ -13,12 +13,18 @@
     border-radius: 15px;
     border: 2px rgb(24,49,83) solid;
     box-shadow: 5px 5px 5px rgb(24,49,83);
-    width: 30%;
+    max-width: 40%;
     margin: 1%;
 }
 .details>.title{
     font-size: 3rem;
     margin: 0;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 5%;
 }
 .infos>p::first-line{
     font-size: 1.5rem;
@@ -30,8 +36,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: relative;
-    padding-top: 8%;
 }
 .allImages img{
     max-width: 45%;
@@ -51,9 +55,6 @@
 .allimage-title{
     color: rgb(24,49,83);
     font-size: 3rem;
-    position: absolute;
-    top: 1%;
-    left:1%
 }
 .lien-site{
     text-decoration: none;
