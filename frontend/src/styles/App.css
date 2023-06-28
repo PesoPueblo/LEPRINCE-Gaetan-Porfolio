@@ -28,3 +28,6 @@
   text-decoration: none;
   color: rgb(24,49,83);
 }
+.contact-link:hover{
+  color: #dcb233;
+}
