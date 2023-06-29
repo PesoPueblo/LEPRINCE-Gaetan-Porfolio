@@ -4,14 +4,15 @@ import GalleryPhoto from "../components/gallery";
 import {Link} from 'react-router-dom'
 
 export default function Details() {
-    //récupération de l'id cible
-    const idProject = sessionStorage.getItem("workId");
+    
     //state
     const [data,setData] = useState([]);
     const [image,setImage]=useState([]);
     const [technologie,setTechnologie]=useState([]);
     //appel de l'api avec la route pour un projet
     useEffect(()=>{
+      //récupération de l'id cible
+      const idProject = sessionStorage.getItem("workId");
         fetch(`${process.env.REACT_APP_SERVER_URL}/api/works/${idProject}`)
             .then(prom=>prom.json())
             .then(data=>{setData(data);setImage(data.image);setTechnologie(data.technologie)})

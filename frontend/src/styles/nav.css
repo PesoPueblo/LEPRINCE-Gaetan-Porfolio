@@ -32,24 +32,41 @@ menu{
 .nav-link:hover{
     color: white;
 }
-@media (max-width:950px) and (min-width: 551px)  {
-    .nav-link{
-        font-size: 40%;
-    }
+#menu-button {
+    color: white;
+    font-size: 2rem;
+    margin-right: 2%;
+    display: none;
+}
+@media (max-width:950px) {
+    
     menu>li{
-        margin: 0 20px;
+        margin: 20px;
     }
     .header>img{
         max-width: 50px;
     }
-    
+    .header{
+        position: relative;
+    }
+    #menu-button{
+        display: inline;
+    }
+    .menu{
+        display: none;
+        background-color: rgb(24,49,83);
+        position: absolute;
+        flex-direction: column;
+        top: 100px;
+        right: 0;
+        margin: 0;
+        border: #dcb233 solid 1px;
+        z-index: 1;
+    }
 }
 @media (max-width:551px) {
-    menu>li{
-        margin: 0 5px;
-    }
     .nav-link{
-        font-size: 30%;
+        font-size: 50%;
     }
     .header>img{
         max-width: 40px;

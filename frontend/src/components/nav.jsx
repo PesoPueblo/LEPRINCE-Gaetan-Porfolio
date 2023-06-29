@@ -2,10 +2,24 @@ import "../styles/nav.css"
 import img from "../asset/moi.jpg"
 import { Link } from "react-router-dom"
 export default function Nav () {
+    function openMenu(){
+        const menuButton = document.querySelector("#menu-button");
+        const menu = document.querySelector(".menu")
+
+        if (menuButton.className === "fa-solid fa-bars") {
+        menuButton.setAttribute("class", "fa-solid fa-xmark")
+        menu.setAttribute("style","display:flex")
+
+            } else if (menuButton.className === "fa-solid fa-xmark") {
+                menuButton.setAttribute("class", "fa-solid fa-bars");
+                menu.setAttribute("style","display:none")
+            }
+    };
     return (
         <div className="header">
             <img src={img} alt="Gaëtan LEPRINCE" />
-            <menu>
+            <i id="menu-button" className="fa-solid fa-bars" onClick={openMenu}></i>
+            <menu className="menu">
                 <li><Link to="/" className="nav-link">A Propos</Link></li>
                 <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
                 <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
