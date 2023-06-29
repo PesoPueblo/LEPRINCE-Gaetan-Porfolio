@@ -5,6 +5,7 @@ export default function Gallery() {
     
  //state
  const [data,setData] = useState([]);
+ //appel de l'API pour tous les projets
  useEffect(()=>{
      fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
      .then(prom=>prom.json())

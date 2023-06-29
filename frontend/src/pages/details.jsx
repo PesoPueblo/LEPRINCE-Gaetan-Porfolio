@@ -4,18 +4,21 @@ import GalleryPhoto from "../components/gallery";
 import {Link} from 'react-router-dom'
 
 export default function Details() {
+    //récupération de l'id cible
+    const idProject = sessionStorage.getItem("workId");
     //state
-    
-        const idProject = sessionStorage.getItem("workId");
     const [data,setData] = useState([]);
     const [image,setImage]=useState([]);
     const [technologie,setTechnologie]=useState([]);
+    //appel de l'api avec la route pour un projet
     useEffect(()=>{
         fetch(`${process.env.REACT_APP_SERVER_URL}/api/works/${idProject}`)
             .then(prom=>prom.json())
             .then(data=>{setData(data);setImage(data.image);setTechnologie(data.technologie)})
             .catch(err=>console.log(err));
     },[]);
+
+    //gestion de la partie technologie string ou tableau 
     function contentTechno (){
         if (typeof technologie === 'string'|| technologie instanceof String){
           return ( 
@@ -33,7 +36,7 @@ export default function Details() {
           )
           }
       }
-
+    //render
     return (
       <div>
           <div className='details'>

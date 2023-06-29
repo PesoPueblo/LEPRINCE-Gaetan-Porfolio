@@ -1,6 +1,8 @@
 import Tech from '../components/compt/tech'
 import '../styles/compet.css'
+
 export default function Competences(){
+    //création de constante pour faire appel au image static 
     const html = require('../asset/html.png');
     const css= require('../asset/css.png');
     const reactjs= require('../asset/react.png');
@@ -11,6 +13,8 @@ export default function Competences(){
     const gh= require('../asset/GitHub.png');
     const figma= require('../asset/figma.png');
     const notion= require('../asset/notion.png');
+
+    
     return(
         <div id="compétences" className="competence-gallery section">
             <h2 className='title'>Mes compétences</h2>

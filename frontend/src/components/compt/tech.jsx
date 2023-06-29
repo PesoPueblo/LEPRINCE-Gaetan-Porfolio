@@ -1,4 +1,6 @@
 export default function Tech({name,img, note}){
+    //comportement
+    //fonction qui génère les icones de notation 
     function Grade({note}){
         const round = [];
         for (let i = 0; i < note; i++) {
@@ -17,6 +19,7 @@ export default function Tech({name,img, note}){
                 {round}
             </div>
         )};
+    //render
     return(
         <div className='tech'>
             <img src={img} alt={name} className="tech-img"/>
