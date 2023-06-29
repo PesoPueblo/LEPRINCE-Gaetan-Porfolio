@@ -39,9 +39,9 @@ export default function Competences(){
                 <div className='CompCard'>
                         <h3 className='compTitle' >Autres</h3>
                         <div className='list'>
-                        <Tech img={git} name="Git" note="4" />
-                        <Tech img={gh} name="GitHub" note="3" />
-                        <Tech img={figma} name="Figma" note="4" />
+                        <Tech img={git} name="Git" note="3" />
+                        <Tech img={gh} name="GitHub" note="4" />
+                        <Tech img={figma} name="Figma" note="3" />
                         <Tech img={notion} name="Notion" note="3" />
                         </div>
                 </div>
