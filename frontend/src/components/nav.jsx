@@ -3,9 +3,9 @@ import img from "../asset/moi.jpg"
 import { Link } from "react-router-dom"
 export default function Nav () {
         
+    function openMenu(){
         const menuButton = document.querySelector("#menu-button");
         const menu = document.querySelector(".menu")
-    function openMenu(){
 
         if (menuButton.className === "fa-solid fa-bars") {
         menuButton.setAttribute("class", "fa-solid fa-xmark")
@@ -17,6 +17,7 @@ export default function Nav () {
             }
     };
     function resetDisplay() {
+        const menu = document.querySelector(".menu")
         if(window.innerWidth>950){
             menu.setAttribute("style","display:flex")
         } else {
