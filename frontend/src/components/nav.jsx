@@ -2,9 +2,9 @@ import "../styles/nav.css"
 import img from "../asset/moi.jpg"
 import { Link } from "react-router-dom"
 export default function Nav () {
-    function openMenu(){
         const menuButton = document.querySelector("#menu-button");
         const menu = document.querySelector(".menu")
+    function openMenu(){
 
         if (menuButton.className === "fa-solid fa-bars") {
         menuButton.setAttribute("class", "fa-solid fa-xmark")
@@ -15,6 +15,14 @@ export default function Nav () {
                 menu.setAttribute("style","display:none")
             }
     };
+    function handleResized(){
+        const widthWindow = window.innerWidth;
+        if (widthWindow>950 && menu.style.display=== "none"){
+            menu.setAttribute("style", "display:flex")
+        }
+    };
+    window.addEventListener("resize", handleResized)
+    
     return (
         <div className="header">
             <img src={img} alt="Gaëtan LEPRINCE" />
