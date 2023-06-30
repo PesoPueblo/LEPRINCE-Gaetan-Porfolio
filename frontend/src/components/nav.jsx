@@ -2,6 +2,7 @@ import "../styles/nav.css"
 import img from "../asset/moi.jpg"
 import { Link } from "react-router-dom"
 export default function Nav () {
+        
         const menuButton = document.querySelector("#menu-button");
         const menu = document.querySelector(".menu")
     function openMenu(){
@@ -15,17 +16,17 @@ export default function Nav () {
                 menu.setAttribute("style","display:none")
             }
     };
-    function handleResized(){
-        const widthWindow = window.innerWidth;
-        if (widthWindow>950 && menu.style.display=== "none"){
-            menu.setAttribute("style", "display:flex")
-        }else if(widthWindow<950 ){
-            menuButton.setAttribute("class", "fa-solid fa-bars");
+    function resetDisplay() {
+        if(window.innerWidth>950){
+            menu.setAttribute("style","display:flex")
+        } else {
             menu.setAttribute("style","display:none")
         }
     };
-    window.addEventListener("resize", handleResized)
+   
+    window.addEventListener("resize",resetDisplay)
     
+
     return (
         <div className="header">
             <img src={img} alt="Gaëtan LEPRINCE" />
