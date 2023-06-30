@@ -19,6 +19,9 @@ export default function Nav () {
         const widthWindow = window.innerWidth;
         if (widthWindow>950 && menu.style.display=== "none"){
             menu.setAttribute("style", "display:flex")
+        }else if(widthWindow<950 ){
+            menuButton.setAttribute("class", "fa-solid fa-bars");
+            menu.setAttribute("style","display:none")
         }
     };
     window.addEventListener("resize", handleResized)
