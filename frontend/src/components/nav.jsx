@@ -17,11 +17,14 @@ export default function Nav () {
             }
     };
     function resetDisplay() {
+        const menuButton = document.querySelector("#menu-button");
         const menu = document.querySelector(".menu")
         if(window.innerWidth>950){
             menu.setAttribute("style","display:flex")
         } else {
+            menuButton.setAttribute("class", "fa-solid fa-bars");
             menu.setAttribute("style","display:none")
+
         }
     };
    
