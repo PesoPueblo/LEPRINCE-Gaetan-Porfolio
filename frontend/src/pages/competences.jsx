@@ -22,27 +22,27 @@ export default function Competences(){
                 <div className='CompCard'>
                         <h3 className='compTitle' >Front-End</h3>
                         <div className='list'>
-                        <Tech img={html} name="HTML" note="4" />
-                        <Tech img={css} name="CSS" note="4" />
-                        <Tech img={js} name="JavaScript" note="3" />
-                        <Tech img={reactjs} name="REACT" note="3" />
+                        <Tech img={html} name="HTML"/>
+                        <Tech img={css} name="CSS"/>
+                        <Tech img={js} name="JavaScript"/>
+                        <Tech img={reactjs} name="REACT"/>
                         </div>
                 </div>
                 <div  className='CompCard'>
                         <h3 className='compTitle'>Back-End</h3>
                         <div className='list'>
-                        <Tech img={js} name="JavaScript" note="3" />
-                        <Tech img={nodejs} name="NodeJS" note="3" />
-                        <Tech img={mongodb} name="MongoDB" note="3" />
+                        <Tech img={js} name="JavaScript"/>
+                        <Tech img={nodejs} name="NodeJS"/>
+                        <Tech img={mongodb} name="MongoDB"/>
                         </div>
                 </div>
                 <div className='CompCard'>
                         <h3 className='compTitle' >Autres</h3>
                         <div className='list'>
-                        <Tech img={git} name="Git" note="3" />
-                        <Tech img={gh} name="GitHub" note="4" />
-                        <Tech img={figma} name="Figma" note="3" />
-                        <Tech img={notion} name="Notion" note="3" />
+                        <Tech img={git} name="Git"/>
+                        <Tech img={gh} name="GitHub"/>
+                        <Tech img={figma} name="Figma"/>
+                        <Tech img={notion} name="Notion"/>
                         </div>
                 </div>
             </div>
