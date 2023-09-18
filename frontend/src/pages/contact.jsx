@@ -7,7 +7,7 @@ export default function Contact (){
             <p className="Text">
                 Vous voulez discuter avec moi d'un projet ou vous souhaitez en savoir plus, <br />
                 n'hésitez pas à me contacter sur  <Link to="https://www.linkedin.com/in/gaetan-leprince-012601137/" className="contact-link">linkedin</Link>. <br />
-                ou par email: leprince.gaetan@yahoo.fr 
+                ou par email: <a href="mailto:leprince.gaetan@yahoo.fr">leprince.gaetan@yahoo.fr</a> 
             </p>
            
         </div>
