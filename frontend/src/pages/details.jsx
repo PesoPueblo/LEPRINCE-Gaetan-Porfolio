@@ -3,6 +3,7 @@ import '../styles/details.css'
 import GalleryPhoto from "../components/gallery";
 import {Link} from 'react-router-dom'
 
+
 export default function Details() {
     
     //state
