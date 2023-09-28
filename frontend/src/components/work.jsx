@@ -1,15 +1,14 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/work.css'
+import { workApi } from '../ressource/Call';
 export default function Gallery() { 
     
  //state
  const [data,setData] = useState([]);
  //appel de l'API pour tous les projets
  useEffect(()=>{
-     fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
-     .then(prom=>prom.json())
-     .then(data=>{setData(data)})
+     workApi.then(data=>{setData(data)})
      .catch(err=>console.log(err));
  },[]);
 
