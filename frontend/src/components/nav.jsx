@@ -37,9 +37,9 @@ export default function Nav () {
             <i id="menu-button" className="fa-solid fa-bars" onClick={openMenu}></i>
             <menu className="menu">
                 <li><Link to="/" className="nav-link">Accueil</Link></li>
-                <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
-                <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
-                <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
+                <li><Link to="/#/compétences" className="nav-link">Mes Compétences</Link></li>
+                <li><Link to="/#/projets"className="nav-link">Mes Projets</Link></li>
+                <li><Link to="/#/contact"className="nav-link">Me contacter</Link></li>
             </menu>
 
         </div>
