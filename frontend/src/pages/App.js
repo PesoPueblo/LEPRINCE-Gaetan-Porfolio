@@ -5,8 +5,8 @@ import Competences from './competences';
 import Works from './projets';
 import Contact from './contact';
 import img from "../asset/moi.jpg";
-import {browserHistory, Routes, Route} from 'react-router-dom';
-
+import { Routes, Route} from 'react-router-dom';
+import{ browserHistory} from 'react-router'
 
 
 function App() {
