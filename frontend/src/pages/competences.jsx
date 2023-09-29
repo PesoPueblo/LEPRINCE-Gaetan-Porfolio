@@ -1,7 +1,5 @@
 import Tech from '../components/compt/tech'
 import '../styles/compet.css'
-import Footer from '../components/footer';
-import Nav from '../components/nav'
 export default function Competences() {
     //création de constante pour faire appel au image static 
     const html = require('../asset/html.png');
@@ -17,8 +15,6 @@ export default function Competences() {
 
 
     return (
-        <div>
-            <Nav />
             <div id="compétences" className="competence-gallery section">
                 <h2 className='title'>Mes compétences</h2>
                 <div className='compet-gallery'>
@@ -52,7 +48,4 @@ export default function Competences() {
 
 
             </div>
-            <Footer />
-        </div>
-    )
 }

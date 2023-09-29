@@ -1,11 +1,6 @@
 import { Link } from "react-router-dom"
-import Nav from "../components/nav"
-import Footer from "../components/footer"
-
 export default function Contact (){
     return(
-        <div>
-                <Nav/>
         <div id="contact" className="section">
             <h2 className="title">Pour me Contacter ? </h2>
             <p className="Text">
@@ -15,7 +10,5 @@ export default function Contact (){
             </p>
            
         </div>
-                <Footer/>
-            </div>
     )
 }

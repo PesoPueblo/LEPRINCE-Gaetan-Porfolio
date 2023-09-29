@@ -1,5 +1,4 @@
-import Footer from "../components/footer";
-import Nav from "../components/nav";
+
 import "../styles/presentation.css";
 import Apropos from "./apropos";
 import {Link} from 'react-router-dom';
@@ -15,7 +14,6 @@ export default function Presentation({titre, text , img}){
  }
     return(
         <div>
-        <Nav/>
         <div className="section">
             {image()}
             <div className="content">
@@ -29,7 +27,6 @@ export default function Presentation({titre, text , img}){
             
         </div>
         <Apropos/>
-        <Footer/>
         </div>
     );
 }

@@ -1,10 +1,6 @@
-import Footer from "../components/footer";
-import Nav from "../components/nav";
 
 export default function Apropos() {
     return (
-        <div>
-            <Nav/>
             <div id="apropos" className="section ">
                 <h2 className="title">Qui suis-je ?</h2>
                 <div>
@@ -16,7 +12,6 @@ export default function Apropos() {
                     </p>
                 </div>
             </div>
-            <Footer/>
-        </div>
+        
     )
 }
