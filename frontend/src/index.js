@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Nav from './components/nav';
-import Footer from './components/footer';
-import Presentation from './presentation';
-import Details from './details'
-import Competences from './competences';
-import Works from './projets';
-import Contact from './contact';
-import img from "../asset/moi.jpg";
+import Presentation from './pages/presentation';
+import Details from './pages/details'
+import Competences from './pages/competences';
+import Works from './pages/projets';
+import Contact from './pages/contact';
+import img from "./asset/moi.jpg";
 import { Route} from 'react-router-dom';
 import {BrowserRouter as Router} from 'react-router-dom';
 
