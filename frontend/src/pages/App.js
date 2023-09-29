@@ -17,10 +17,10 @@ function App() {
               text='Bonjour, je suis Gaëtan, Développeur Web Front-end Junior'
               img={img}/>
         }></Route>
-        <Route path='/compétences'element={<Competences/>}></Route>
-        <Route path='/projets' element={<Works/>}></Route>
+        <Route exact path='/compétences'element={<Competences/>}></Route>
+        <Route exact path='/projets' element={<Works/>}></Route>
         <Route path='/projets/:titre' element={<Details/>}></Route> 
-        <Route path='/contact' element={<Contact/>}></Route>
+        <Route exact path='/contact' element={<Contact/>}></Route>
       </Routes>
     </div>
   );
