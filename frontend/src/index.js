@@ -8,7 +8,7 @@ import Works from './pages/projets';
 import Contact from './pages/contact';
 import img from "./asset/moi.jpg";
 import {BrowserRouter, Route,Routes } from 'react-router-dom';
-import '../styles/App.css';
+import './styles/App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
