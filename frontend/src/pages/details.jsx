@@ -40,6 +40,7 @@ export default function Details() {
       }
     //render
     return (
+      <div>
           <div className='details'>
             <h3 className="title">{data.titre}</h3>
             <div className="infos-image">
@@ -56,6 +57,7 @@ export default function Details() {
           <div className="allImages">
             <GalleryPhoto image={image}/>
           </div>
+      </div>
     )
 }
 
