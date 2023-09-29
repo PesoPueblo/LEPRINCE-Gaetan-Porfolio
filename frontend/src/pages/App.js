@@ -5,13 +5,14 @@ import Competences from './competences';
 import Works from './projets';
 import Contact from './contact';
 import img from "../asset/moi.jpg";
-import {Routes, Route} from 'react-router-dom';
+import {browserHistory, Routes, Route} from 'react-router-dom';
+
 
 
 function App() {
   return (
     <div>
-      <Routes>
+      <Routes history={browserHistory}>
         <Route path='/' element={<Presentation
               titre='Bienvenue !!!'
               text='Bonjour, je suis Gaëtan, Développeur Web Front-end Junior'
@@ -20,7 +21,7 @@ function App() {
         <Route exact path='/compétences'element={<Competences/>}></Route>
         <Route exact path='/projets' element={<Works/>}></Route>
         <Route path='/projets/:titre' element={<Details/>}></Route> 
-        <Route exact path='/contact' element={<Contact/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
     </div>
   );

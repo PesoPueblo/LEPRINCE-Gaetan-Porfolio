@@ -39,7 +39,7 @@ export default function Nav () {
                 <li><Link to="/" className="nav-link">Accueil</Link></li>
                 <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
                 <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
-                <li><Link to="œ/contact"className="nav-link">Me contacter</Link></li>
+                <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
             </menu>
 
         </div>
