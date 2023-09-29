@@ -6,13 +6,12 @@ import Works from './projets';
 import Contact from './contact';
 import img from "../asset/moi.jpg";
 import { Routes, Route} from 'react-router-dom';
-import{ browserHistory} from 'react-router'
 
 
 function App() {
   return (
     <div>
-      <Routes history={browserHistory}>
+      <Routes >
         <Route path='/' element={<Presentation
               titre='Bienvenue !!!'
               text='Bonjour, je suis Gaëtan, Développeur Web Front-end Junior'

@@ -19,8 +19,8 @@ export default function Presentation({titre, text , img}){
                 <h1 className="title">{titre}</h1>
                 <p className="Text">{text}</p>
                 <div className="LinkRS">
-                    <Link to="https://www.linkedin.com/in/gaetan-leprince-012601137/" className="linkres"><i className="fa-brands fa-linkedin"></i></Link>
-                    <Link to="https://github.com/PesoPueblo" className="linkres"><i className="fa-brands fa-square-github"></i></Link>
+                    <Link to="https://www.linkedin.com/in/gaetan-leprince-012601137/" className="linkres" target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
+                    <Link to="https://github.com/PesoPueblo" className="linkres" target="_blank"><i className="fa-brands fa-square-github"></i></Link>
                 </div>
             </div>
             
