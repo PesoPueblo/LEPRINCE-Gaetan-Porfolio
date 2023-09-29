@@ -2,6 +2,8 @@ import { useState,useEffect } from "react";
 import '../styles/details.css'
 import GalleryPhoto from "../components/gallery";
 import {Link} from 'react-router-dom'
+import Nav from "../components/nav";
+import Footer from "../components/footer";
 
 
 export default function Details() {
@@ -41,6 +43,7 @@ export default function Details() {
     //render
     return (
       <div>
+        <Nav/>
           <div className='details'>
             <h3 className="title">{data.titre}</h3>
             <div className="infos-image">
@@ -57,6 +60,7 @@ export default function Details() {
           <div className="allImages">
             <GalleryPhoto image={image}/>
           </div>
+          <Footer/>
       </div>
     )
 }
