@@ -13,7 +13,7 @@ export default function Presentation({titre, text , img}){
     }
  }
     return(
-        <div>
+        <div className="main">
         <div className="section">
             {image()}
             <div className="content">

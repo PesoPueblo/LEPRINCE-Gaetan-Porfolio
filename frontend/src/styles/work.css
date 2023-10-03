@@ -1,15 +1,14 @@
-.works-gallery{
+#projets{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    border-bottom: #dcb233 solid 5px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .works-gallery>div{
 display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .workCard{

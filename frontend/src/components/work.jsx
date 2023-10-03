@@ -1,16 +1,9 @@
-import { useState, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 import '../styles/work.css'
-import { workApi } from '../ressource/Call';
-export default function Gallery() { 
+export default function Gallery({data}) { 
     
- //state
- const [data,setData] = useState([]);
- //appel de l'API pour tous les projets
- useEffect(()=>{
-     workApi.then(data=>{setData(data)})
-     .catch(err=>console.log(err));
- },[]);
+
 
     return(
         <div>

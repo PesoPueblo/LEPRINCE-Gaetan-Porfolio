@@ -21,7 +21,9 @@ form{
 	}
 }
 .response{
-    display: none;
+    display: none;  
+    position: absolute;
+    top:0;
     flex-direction: column;
     justify-content: flex-start;
     color: rgb(24,49,83);
@@ -29,6 +31,7 @@ form{
     border-radius: 15px;
     border: 1px solid rgb(24,49,83);
     box-shadow: 5px 5px 5px rgb(24,49,83);
+    animation: myAnim 3s ease 0s 1 reverse forwards;
 }
 #contact{
     display: flex;
@@ -39,6 +42,7 @@ form{
 #contact div{
     width: 53%;
     height: 50vh;
+    position: relative;
 }
 #contact p{
     width: 45%;
