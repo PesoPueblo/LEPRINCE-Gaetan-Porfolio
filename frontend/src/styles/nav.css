@@ -55,7 +55,7 @@ nav{
     #menu-button{
         display: inline;
     }
-    .nav{
+    .menu{
         display: none;
         background-color: rgb(24,49,83);
         position: absolute;

@@ -47,14 +47,15 @@ form{
 #contact p{
     width: 45%;
 }
-#contact h2{
+#contact h1{
     width: 100%;
 }
 .input{
     height: 10%;
 }
 #message{
-    height: 60%;
+    height: 53%;
+    max-width: 99%;
 }
 .btn{
     width: 20%;
