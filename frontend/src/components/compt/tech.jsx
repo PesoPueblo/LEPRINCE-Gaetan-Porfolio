@@ -5,8 +5,8 @@ export default function Tech({name,img}){
     //render
     return(
         <div className='tech'>
-            <img src={img} alt={name} className="tech-img"/>
-            <h4 >{name}</h4>
+            <img src={img} alt={"logo "+ name} className="tech-img"/>
+            <h3 >{name}</h3>
         </div>
     )
 }

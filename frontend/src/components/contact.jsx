@@ -54,11 +54,11 @@ export  function Form () {
     <div>
         <form action="https://api.staticforms.xyz/submit" method="post" onSubmit={handleSubmit}>
             <label className="label" htmlFor="name">Votre Nom</label>
-            <input className="input" type="text" name="name" placeholder="Saisir votre nom" id='name' onChange={handleChange} required/> 
+            <input className="input" type="text" name="name" placeholder="Saisir votre nom" id='name' onChange={handleChange} aria-label="saisir votre nom ici" required /> 
             <label className="label" htmlFor="email">Votre Email</label>
-            <input className="input"  type="email" name="email" id="email" placeholder="Saisir votre email" onChange={handleChange} required/>
+            <input className="input"  type="email" name="email" id="email" placeholder="Saisir votre email" onChange={handleChange} aria-label="saisir votre mail ici" required/>
             <label className="label" htmlFor="message">Votre Message</label> 
-            <textarea name="message" id="message" placeholder="Saisir votre message" onChange={handleChange} required/>  
+            <textarea name="message" id="message" placeholder="Saisir votre message" onChange={handleChange} aria-label="saisir votre message ici"required/>  
             <input className='btn'type="submit" value="Envoyer" />
         </form>
         <p className="response">{response.message}</p>

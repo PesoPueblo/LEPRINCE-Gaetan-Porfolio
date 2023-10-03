@@ -4,7 +4,7 @@ import '../styles/contact.css'
 export default function Contact (){
     return(
         <div id="contact" className="section">
-            <h2 className="title">Pour me Contacter ? </h2>
+            <h1 className="title">Pour me Contacter ? </h1>
                 <Form/>
                 <p className="Text">
                     Vous voulez discuter avec moi d'un projet ou vous souhaitez en savoir plus, <br />

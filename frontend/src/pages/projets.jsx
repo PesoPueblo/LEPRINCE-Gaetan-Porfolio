@@ -13,7 +13,7 @@ export default function Works(){
     //render
         return(
             <div id="projets" className="works-gallery section">
-                <h2 className='title'>Mes Projets</h2>
+                <h1 className='title'>Mes Projets</h1>
                 <Gallery data={data}/>
             </div>
         )

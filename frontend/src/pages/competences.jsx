@@ -16,10 +16,10 @@ export default function Competences() {
 
     return (
             <div id="compétences" className="competence-gallery section">
-                <h2 className='title'>Mes compétences</h2>
+                <h1 className='title'>Mes compétences</h1>
                 <div className='compet-gallery'>
                     <div className='CompCard'>
-                        <h3 className='compTitle' >Front-End</h3>
+                        <h2 className='compTitle' >Front-End</h2>
                         <div className='list'>
                             <Tech img={html} name="HTML" />
                             <Tech img={css} name="CSS" />
@@ -28,7 +28,7 @@ export default function Competences() {
                         </div>
                     </div>
                     <div className='CompCard'>
-                        <h3 className='compTitle'>Back-End</h3>
+                        <h2 className='compTitle'>Back-End</h2>
                         <div className='list'>
                             <Tech img={js} name="JavaScript" />
                             <Tech img={nodejs} name="NodeJS" />
@@ -36,7 +36,7 @@ export default function Competences() {
                         </div>
                     </div>
                     <div className='CompCard'>
-                        <h3 className='compTitle' >Autres</h3>
+                        <h2 className='compTitle' >Autres</h2>
                         <div className='list'>
                             <Tech img={git} name="Git" />
                             <Tech img={gh} name="GitHub" />

@@ -42,7 +42,7 @@ export default function Details() {
     return (
       <div className="main">
           <div className='details'>
-            <h3 className="title">{data.titre}</h3>
+            <h1 className="title">{data.titre}</h1>
             <div className="infos-image">
               <img src={image[0]} alt="preview 1" className="preview"/>
               <div className='infos'>
@@ -53,7 +53,7 @@ export default function Details() {
               </div>
             </div>
           </div>
-            <h4 className="allimage-title">Vues du projets</h4>
+            <h2 className="allimage-title">Vues du projets</h2>
           <div className="allImages">
             <GalleryPhoto image={image}/>
           </div>

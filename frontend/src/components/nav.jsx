@@ -1,5 +1,5 @@
 import "../styles/nav.css"
-import img from "../asset/moi.jpg"
+import img from "../asset/gaetan.jpg"
 import { Link } from "react-router-dom"
 export default function Nav () {
         
@@ -32,16 +32,16 @@ export default function Nav () {
     
 
     return (
-        <div className="header">
+        <header className="header" >
             <img src={img} alt="Gaëtan LEPRINCE" />
             <i id="menu-button" className="fa-solid fa-bars" onClick={openMenu}></i>
-            <menu className="menu">
+            <nav className="menu">
                 <li><Link to="/" className="nav-link">Accueil</Link></li>
                 <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
                 <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
                 <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
-            </menu>
+            </nav>
 
-        </div>
+        </header>
     )
 }

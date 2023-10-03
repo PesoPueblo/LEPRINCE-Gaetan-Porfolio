@@ -4,13 +4,13 @@ import Details from './details'
 import Competences from './competences';
 import Works from './projets';
 import Contact from './contact';
-import img from "../asset/moi.jpg";
+import img from "../asset/gaetan.jpg";
 import { Routes, Route} from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
+    <main>
       <Routes >
         <Route path='/' element={<Presentation
               titre='Bienvenue !!!'
@@ -22,7 +22,7 @@ function App() {
         <Route path='/projets/:titre' element={<Details/>}></Route> 
         <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
-    </div>
+    </main>
   );
 }
 
