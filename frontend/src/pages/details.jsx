@@ -55,7 +55,7 @@ export default function Details() {
           </div>
             <h2 className="allimage-title">Vues du projets</h2>
           <div className="allImages">
-            <GalleryPhoto image={image}/>
+            <GalleryPhoto image={image} titre={data.titre}/>
           </div>
       </div>
     )

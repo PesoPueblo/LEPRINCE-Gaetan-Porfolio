@@ -1,5 +1,5 @@
 
-export default function GalleryPhoto ({image}){
+export default function GalleryPhoto ({image, titre}){
     //function qui gère les cas d'image seul ou mutiple dans la gallery
     if (typeof image === 'string'|| image instanceof String){
         return (
@@ -9,7 +9,7 @@ export default function GalleryPhoto ({image}){
         const images=[];
         for (let i = 1; i < image.length; i++) {
             images.push(
-                <img src={image[i]} key={`${image[i]}`} alt= {`page du projet ${image[i]}`} />
+                <img src={image[i]} key={`${image[i]}`} alt= {`page du projet ${titre} numéro ${i}`} />
             )
         }
         return images
