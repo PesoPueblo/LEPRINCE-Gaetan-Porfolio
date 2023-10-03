@@ -1,0 +1,79 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(24,49,83);
+    height: 50vh;
+    padding: 2%;
+    border-radius: 15px;
+    border: 1px solid rgb(24,49,83);
+    box-shadow: 5px 5px 5px rgb(24,49,83);
+}
+@keyframes myAnim {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+}
+.response{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(24,49,83);
+    padding: 2%;
+    border-radius: 15px;
+    border: 1px solid rgb(24,49,83);
+    box-shadow: 5px 5px 5px rgb(24,49,83);
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#contact div{
+    width: 53%;
+    height: 50vh;
+}
+#contact p{
+    width: 45%;
+}
+#contact h2{
+    width: 100%;
+}
+.input{
+    height: 10%;
+}
+#message{
+    height: 60%;
+}
+.btn{
+    width: 20%;
+    height: 10%;
+    margin-top: 2%;
+    align-self: flex-end;
+    background-color: #dcb233;
+    border-radius: 10px;
+    color: rgb(24,49,83);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn:hover{
+    color: white;
+}
+
+@media (max-width:951px) {
+    #contact{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: unset;
+    }
+    #contact div, #contact p{
+        width: auto;
+    }
+}

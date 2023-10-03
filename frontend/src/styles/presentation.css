@@ -3,9 +3,8 @@
     flex-direction: column;
     justify-content: center;
     border-bottom: 5px solid #dcb233;
-    padding: 3%;
-    padding-bottom: 100px;
-    min-height: 500px;
+    padding:0 3%;
+    min-height: calc(98vh - 100px);
 }
 .title{
     font-size: 4.5rem;

@@ -1,8 +1,8 @@
 .compet-gallery{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding-top: 10%;
     flex-wrap: wrap;
 }
@@ -10,8 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #cdb233;
-    color: white;
+    color: rgb(24,49,83);
     max-width: 45%;
     margin: 2%;
     align-items: center;

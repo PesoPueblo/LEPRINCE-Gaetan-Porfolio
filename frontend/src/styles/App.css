@@ -1,10 +1,7 @@
 #root{
   background:white;
 }
-#contact{
-  max-height: 200px;
-  background-color: white;
-}
+
 #contact>ul{
   text-decoration: none;
   color:  rgb(24,49,83) ;
