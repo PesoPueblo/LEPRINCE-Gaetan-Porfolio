@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .works-gallery>div{
 display: flex;
@@ -10,6 +10,9 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 padding-top: 10%;
+}
+.works-gallery h1{
+    width: 100%;
 }
 
 .workCard{

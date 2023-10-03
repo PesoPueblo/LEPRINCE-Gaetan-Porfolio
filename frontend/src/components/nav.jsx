@@ -36,10 +36,12 @@ export default function Nav () {
             <img src={img} alt="Gaëtan LEPRINCE" />
             <i id="menu-button" className="fa-solid fa-bars" onClick={openMenu}></i>
             <nav className="menu">
-                <li><Link to="/" className="nav-link">Accueil</Link></li>
-                <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
-                <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
-                <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
+                <menu className="menu">
+                    <li><Link to="/" className="nav-link">Accueil</Link></li>
+                    <li><Link to="/compétences" className="nav-link">Mes Compétences</Link></li>
+                    <li><Link to="/projets"className="nav-link">Mes Projets</Link></li>
+                    <li><Link to="/contact"className="nav-link">Me contacter</Link></li>
+                </menu>
             </nav>
 
         </header>

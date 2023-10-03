@@ -14,14 +14,16 @@
     max-width: 80px;
     margin: 3%;
     border: white solid 2px;
+    width: 80px;
+    height: 80px;
 }
-nav>li{
+.menu>li{
     display: flex;
     text-decoration: none;
     font-size: 35px;
     margin: 0 30px;
 }
-nav{
+.menu{
     display: flex;
     align-items: center;
 }
@@ -43,11 +45,12 @@ nav{
 }
 @media (max-width:950px) {
     
-    nav>li{
+    .menu>li{
         margin: 20px;
     }
     .header>img{
         max-width: 50px;
+        max-height: 50px;
     }
     .header{
         position: relative;
@@ -77,6 +80,7 @@ nav{
     }
     .header>img{
         max-width: 40px;
+        max-height: 40px;
     }
     
 }
