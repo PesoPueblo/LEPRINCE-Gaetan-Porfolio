@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { workApi } from '../ressource/Call';
 import Gallery from '../components/work'
 import '../styles/work.css'
 export default function Works(){
@@ -7,7 +6,9 @@ export default function Works(){
  const [data,setData] = useState([]);
  //appel de l'API pour tous les projets
  useEffect(()=>{
-     workApi.then(data=>{setData(data)})
+    fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
+    .then(prom=>prom.json())
+    .then(data=>{setData(data)})
      .catch(err=>console.log(err));
  },[]);
     //render
