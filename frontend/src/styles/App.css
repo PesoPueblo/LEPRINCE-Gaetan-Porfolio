@@ -29,12 +29,15 @@
   color: #dcb233;
 }
 .main, #compétences, #contact, #projets{
-  animation: myAnim 1s ease 0s 1 reverse forwards;
+  animation: myMainAnim 0.75s linear 0s 1 normal backwards;
 }
-@keyframes myAnim {
+.home{
+  animation: myAnim 0.8s ease 0s 1 reverse forwards;
+}
+@keyframes myMainAnim {
 	0% {
 		opacity: 0;
-		transform: translateY(-50px);
+		transform: translateY(-250px);
 	}
 
 	100% {

@@ -4,6 +4,9 @@
     justify-content: center;
     flex-direction: column;
 }
+.details .title{
+    align-self: flex-start;
+}
 .infos-image{
     display: flex;
     justify-content: space-between;
