@@ -58,7 +58,6 @@ form{
     max-width: 99%;
 }
 .btn{
-    width: 20%;
     height: 10%;
     margin-top: 2%;
     align-self: flex-end;
@@ -71,7 +70,9 @@ form{
 .btn:hover{
     color: white;
 }
-
+.error{
+    color: red;
+}
 @media (max-width:951px) {
     #contact{
         flex-direction: column;
@@ -80,5 +81,7 @@ form{
     }
     #contact div, #contact p{
         width: auto;
+        height: auto;
+        margin-bottom: 5%;
     }
 }
