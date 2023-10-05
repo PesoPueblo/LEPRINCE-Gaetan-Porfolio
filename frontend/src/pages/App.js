@@ -14,7 +14,7 @@ function App() {
       <Routes >
         <Route path='/' element={<Presentation
               titre='Bienvenue !!!'
-              text='Bonjour, je suis Gaëtan, Développeur Web Front-end Junior'
+              text="Bonjour, je suis Gaëtan, Développeur Web Front-end Junior en recherche d'alternance"
               img={img}/>
         }></Route>
         <Route path='/compétences'element={<Competences/>}></Route>

@@ -57,7 +57,7 @@ export function FormikForm() {
               //modification ddu message de validation 
               setResponse({
                 type: 'success',
-                message: `Merci pour votre message! Je répondrais par retour de mail dès que possible`
+                message: `Merci pour votre message! J'y répondrais dans les plus bref délais!`
               });
               document.querySelector('.form').setAttribute('style', 'animation: myAnim 2s ease 0s 1 normal forwards')/* animation de disparition du formulaire*/
               document.querySelector('.response').setAttribute('style', 'display:flex')/*changement du display pour faire apparaitre le message */

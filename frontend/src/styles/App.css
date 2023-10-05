@@ -17,15 +17,15 @@
   color: rgb(24,49,83);
   margin-right: 5%;
 }
-.rs:hover,.contact-link{
+.rs:hover{
   color: #dcb233;
 }
-.contact-link{
+.link{
   font-weight: bold;
   text-decoration: none;
   color: rgb(24,49,83);
 }
-.contact-link:hover{
+.link:hover{
   color: #dcb233;
 }
 .main, #compétences, #contact, #projets{

@@ -7,10 +7,11 @@ export default function Contact (){
             <h1 className="title">Pour me Contacter ? </h1>
                 <FormikForm/>
                 <p className="Text">
-                    Vous voulez discuter avec moi d'un projet ou vous souhaitez en savoir plus, <br />
-                    n'hésitez pas à remplir le formulaire de contact, <br/>
-                    à me contacter sur  <Link to="https://www.linkedin.com/in/gaetan-leprince-012601137/" className="contact-link" target="_blank">linkedin</Link>. <br />
-                    ou par email: <a href="mailto:leprince.gaetan@yahoo.fr">leprince.gaetan@yahoo.fr</a> 
+                    Vous voulez discuter avec moi d'un projet ou vous souhaitez en savoir plus. <br />
+                    N'hésitez pas à :<br /> 
+                    Remplir le formulaire de contact <br/>
+                    Me contacter sur  <Link to="https://www.linkedin.com/in/gaetan-leprince-012601137/" className="link" target="_blank">linkedin</Link> <br />
+                    M'envoyer un mail à <a href="mailto:leprince.gaetan@yahoo.fr" className="link" >leprince.gaetan@yahoo.fr</a> 
                 </p>
         </div>
     )
