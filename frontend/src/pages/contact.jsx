@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom"
-import { Form } from "../components/contact"
+import { FormikForm } from "../components/contact"
 import '../styles/contact.css'
 export default function Contact (){
     return(
         <div id="contact" className="section">
             <h1 className="title">Pour me Contacter ? </h1>
-                <Form/>
+                <FormikForm/>
                 <p className="Text">
                     Vous voulez discuter avec moi d'un projet ou vous souhaitez en savoir plus, <br />
                     n'hésitez pas à remplir le formulaire de contact, <br/>
