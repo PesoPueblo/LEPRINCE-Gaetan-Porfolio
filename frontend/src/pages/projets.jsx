@@ -1,7 +1,17 @@
 import Gallery from '../components/work'
 import '../styles/work.css'
-export default function Works({data}){
+import { useState, useEffect } from 'react';
+export default function Works(){
 
+  //state
+  const [data,setData] = useState([]);
+  //appel de l'API pour tous les projets
+  useEffect(()=>{
+     fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
+     .then(prom=>prom.json())
+     .then(data=>{setData(data)})
+      .catch(err=>console.log(err));
+  },[]);
     //render
         return(
             <div id="projets" className="works-gallery section">

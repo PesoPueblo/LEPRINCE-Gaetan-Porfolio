@@ -5,19 +5,20 @@ import Competences from './competences';
 import Works from './projets';
 import Contact from './contact';
 import img from "../asset/gaetan.jpg";
-import { useState, useEffect } from 'react';
 import { Routes, Route} from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 function App() {
   //state
-  const [data,setData] = useState([]);
+  const [data1,setData1] = useState([]);
   //appel de l'API pour tous les projets
   useEffect(()=>{
      fetch(`${process.env.REACT_APP_SERVER_URL}/api/works`)
      .then(prom=>prom.json())
-     .then(data=>{setData(data)})
+     .then(data=>{setData1(data)})
       .catch(err=>console.log(err));
   },[]);
+console.log(data1);
   return (
     <main>
       <Routes >
@@ -27,7 +28,7 @@ function App() {
               img={img}/>
         }></Route>
         <Route path='/compétences'element={<Competences/>}></Route>
-        <Route data= {data} path='/projets' element={<Works/>}></Route>
+        <Route path='/projets' element={<Works/>}></Route>
         <Route path='/projets/:titre' element={<Details/>}></Route> 
         <Route path='/contact' element={<Contact/>}></Route>
       </Routes>

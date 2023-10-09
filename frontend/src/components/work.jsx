@@ -4,7 +4,6 @@ import '../styles/work.css'
 export default function Gallery({data}) { 
     
 
-
     return(
         <div>
             {data.map((work)=>{
