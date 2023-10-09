@@ -12,8 +12,8 @@ export default function Apropos() {
                         Grâce à la plateforme OpenClassrooms je me suis lancé dans une formation afin d'avoir un titre de niveau Bac+2 et je ne m'arrêterai pas là ... <br />
                     </p>
                     <p className="Text">
-                        Je suis maintenant en recherche d'une entreprise pour validé un titre RNCP de niveau 6 de <em>Concepteur Développeur d'Application</em>! <br />
-                        Vous pouvez <Link to={require('../asset/cv_GAETAN_LEPRINCE.pdf')} target="_blank" download className="link">télécharger ici mon cv</Link> ou aller dans la rubrique <Link to="/contact" className="link">Me contacter</Link> pour avoir plus d'infos ou discuter plus en détails d'un opportunité! 
+                        Je suis maintenant en recherche d'une entreprise pour valider un titre RNCP de niveau 6 de <em>Concepteur Développeur d'Application</em> en alternance !<br />
+                        Vous pouvez <Link to={require('../asset/cv_GAETAN_LEPRINCE.pdf')} target="_blank" download className="link">télécharger ici mon cv</Link> ou aller dans la rubrique <Link to="/contact" className="link">Me contacter</Link> pour avoir plus d'infos ou discuter plus en détails d'une opportunité! 
                     </p>
                 </div>
             </div>

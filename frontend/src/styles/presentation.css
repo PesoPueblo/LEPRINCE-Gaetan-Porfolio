@@ -26,6 +26,7 @@
 .Text{
     color: rgb(24,49,83);
     font-size: 1.5rem;
+    max-width: 70%;
 }
 .LinkRS{
     display: flex;
